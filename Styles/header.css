@@ -1,0 +1,60 @@
+header{padding-block: 32px;}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Profile{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    
+}
+
+#Profile > div{
+    max-width: 384px;
+    
+}
+
+ #Profile h1{
+        font: var(--text-g);
+        color: var(--text-color-primary);
+        margin-bottom: 8px;
+    }
+
+ #Profile p{
+        font: var(--text-p);    
+        color: var(--text-color-secondary);
+    }
+
+    #Info{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        width: 280px;
+    }
+
+    #Info li{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
